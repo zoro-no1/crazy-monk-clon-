@@ -5,7 +5,7 @@
   nav {
     justify-content: space-between;
     width: 90vw;
-   
+    margin: auto;
   }
 
   #logo {
@@ -79,5 +79,11 @@
     width: 50%;
     margin-right: 15px;
     border-radius: 10px;
+  }
+  #main-6 > p {
+    background: red;
+    color: white;
+
+    font-size: large;
   }
 }

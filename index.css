@@ -12,6 +12,8 @@ nav {
   height: 50px;
   justify-content: space-evenly;
   width: 100vw;
+ position: sticky;
+ top: 0px;
 
   background: white;
 }
@@ -122,6 +124,7 @@ border-radius: 10px;
 }
 #main-5{
   margin-top: 15px;
+  width: 100vw;
 }
 #main-5>div{
   display: flex;
@@ -130,4 +133,19 @@ border-radius: 10px;
 }
 #main-5>div>img{
   width: 20%;
+}
+#main-6{
+  text-align: center;
+  margin-top: 15px;
+  width: 100vw;
+}
+#main-6>p{
+  background: red;
+  color: white;
+  
+  font-size: xx-large;
+}
+#main-6>h1{
+  width: 100vw;
+  
 }
