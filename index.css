@@ -1,20 +1,19 @@
 * {
   margin: 0%;
   padding: 0%;
-
+  list-style: none;
+ 
 }
 /*  *::-webkit-scrollbar{
     display:none;
 }*/
 nav {
- 
   display: flex;
   height: 50px;
   justify-content: space-evenly;
   width: 100vw;
- position: sticky;
- top: 0px;
-
+  position: sticky;
+  top: 0px;
   background: white;
 }
 #select {
@@ -49,7 +48,7 @@ i {
   font-size: x-large;
 }
 
-hero>img {
+hero > img {
   margin-top: 15px;
   width: 100vw;
   height: auto;
@@ -79,73 +78,97 @@ hero > img:nth-child(3) {
 #main-1 > div::-webkit-scrollbar {
   display: none;
 }
-#main-2{
+#main-2 {
   width: 100vw;
   margin-top: 15px;
 }
-#main-2>div{
+#main-2 > div {
   display: flex;
-flex-wrap: wrap;
-width: 100vw;
+  flex-wrap: wrap;
+  width: 100vw;
 }
-#main-2>div>img{
+#main-2 > div > img {
   border-radius: 10px;
 
   width: 23%;
   margin: auto;
-  margin-top:20px;
+  margin-top: 20px;
 }
-#big-img{
-flex-basis: 30%;
-
+#big-img {
+  flex-basis: 30%;
 }
-#main-3{
- margin-top: 15px;
+#main-3 {
+  margin-top: 15px;
 }
-#main-3>div{
-display: flex;
+#main-3 > div {
+  display: flex;
 }
-#main-3>div>img{
-width: 23%;
-margin: auto;
-border-radius: 10px;
+#main-3 > div > img {
+  width: 23%;
+  margin: auto;
+  border-radius: 10px;
 }
-#main-4>div{
+#main-4 > div {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
 }
-#main-4{
+#main-4 {
   margin-top: 15px;
 }
-#main-4>div>img{
+#main-4 > div > img {
   border-radius: 10px;
-  
 }
-#main-5{
+#main-5 {
   margin-top: 15px;
   width: 100vw;
 }
-#main-5>div{
+#main-5 > div {
   display: flex;
   width: 100vw;
   justify-content: space-around;
 }
-#main-5>div>img{
+#main-5 > div > img {
   width: 20%;
 }
-#main-6{
+#main-6 {
   text-align: center;
   margin-top: 15px;
   width: 100vw;
 }
-#main-6>p{
+#main-6 > p {
   background: red;
   color: white;
-  
+
   font-size: xx-large;
 }
-#main-6>h1{
+#main-6 > h1 {
+  font-size: 3em;
+}
+#address{
+ display: flex;
+ justify-content: space-around;
+ width: 100vw;
+ margin-top: 20px;
+}
+ul>h1{
+  color: brown;
+}
+footer{
+ margin-top: 20px;
+text-align: center;
+}
+#payments-icon{
+  display: flex;
   width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
   
 }
+#payments-icon>img{
+  width: 25%;
+}
+#fixed-b{
+  display: none;
+}
+

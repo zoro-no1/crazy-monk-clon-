@@ -4,8 +4,9 @@
   }
   nav {
     justify-content: space-between;
-    width: 90vw;
-    margin: auto;
+    width: 100vw;
+
+    
   }
 
   #logo {
@@ -35,6 +36,7 @@
     width: 100vw;
     height: auto;
     margin: auto;
+    margin-top: 40px;
   }
   #main-1 > div > img {
     width: 50%;
@@ -71,6 +73,9 @@
   #main-4 {
     width: 100vw;
   }
+  #main-5{
+    width: 100vw;
+  }
   #main-5 > div {
     overflow: scroll;
     justify-content: flex-start;
@@ -84,6 +89,52 @@
     background: red;
     color: white;
 
-    font-size: large;
+    font-size: small;
+  }
+  #main-6 > h1 {
+    font-size: larger;
+  }
+  h1 {
+    font-size: medium;
+    width: fit-content;
+    margin: auto;
+    
+  }
+  #address {
+    display: inline;
+    width: 90vw;
+  }
+  #company {
+    display: none;
+  }
+  #address-bar {
+    width: 100%;
+  }
+  #address-bar>h1{
+    
+    margin: 0%;
+  }
+  #payments-icon{
+    display: inline;
+  }
+  #payments-icon>img{
+ width: 80%;
+  }
+  footer{
+    height: 300px;
+  }
+  #fixed-b{
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background: white;
+  }
+  #fixed-b>div{
+    text-align: center;
+    
   }
 }
