@@ -2,7 +2,6 @@
   margin: 0%;
   padding: 0%;
   list-style: none;
- 
 }
 /*  *::-webkit-scrollbar{
     display:none;
@@ -145,30 +144,75 @@ hero > img:nth-child(3) {
 #main-6 > h1 {
   font-size: 3em;
 }
-#address{
- display: flex;
- justify-content: space-around;
- width: 100vw;
- margin-top: 20px;
+#address {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin-top: 20px;
 }
-ul>h1{
+ul > h1 {
   color: brown;
 }
-footer{
- margin-top: 20px;
-text-align: center;
+footer {
+  margin-top: 20px;
+  text-align: center;
 }
-#payments-icon{
+#payments-icon {
   display: flex;
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
-  
 }
-#payments-icon>img{
+#payments-icon > img {
   width: 25%;
 }
-#fixed-b{
+#fixed-b {
   display: none;
 }
+#menu {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  width: 65vw;
+  background: rgb(230, 182, 182);
+  height: 100vh;
+  display: none;
+  animation: fun 1s;
+}
 
+#cen {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  animation: fun1 1s;
+}
+#cen > div {
+  margin-left: 5px;
+  height: 20px;
+  animation: fun1 1s;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: xxx-large;
+}
+#logo-ham > img {
+  height: 53px;
+  animation: fun1 1s;
+}
+@keyframes fun {
+  from{width: 0vw;}
+  to{width: 65vw;}
+}
+@keyframes fun1 {
+  from{opacity: 0;}
+  to{opacity: 1;}
+  
+}
+@keyframes clo {
+  from{width: 65vw;}
+  to{width: 0vw;}
+}
